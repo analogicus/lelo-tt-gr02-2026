@@ -1,0 +1,124 @@
+
+Magic 8.3 revision 541 - Compiled on Fri Aug 15 10:24:53 CEST 2025.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+(Magic) SigWatchFile2: Invalid argument
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+/opt/pdk/share/pdk/sky130A/libs.tech/magic/sky130A.tech: line 6356: section plot:
+	Unrecognized layer (type) name "reram"
+/opt/pdk/share/pdk/sky130A/libs.tech/magic/sky130A.tech: line 6357: section plot:
+	Unrecognized layer (type) name "reram"
+/opt/pdk/share/pdk/sky130A/libs.tech/magic/sky130A.tech: line 6359: section plot:
+	Unrecognized layer (type) name "reram"
+/opt/pdk/share/pdk/sky130A/libs.tech/magic/sky130A.tech: line 6370: section plot:
+	Unrecognized layer (type) name "reram"
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Load AICEX tech setup...
+Loading "drc/tt_um_lelo_gr02_analogicus_drc.tcl" from command line.
+Cell tt_um_lelo_gr02_analogicus read from path ../design/LELO_GR02_SKY130A
+Usage: logcommands [start|stop|update|suspend|resume [filename]]
+Coordinate value cannot be parsed:  assuming 0
+Warning:  Parent cell lists instance of "sky130_fd_pr__diode_pw2nd_05v5_QK8PWZ" at bad file path ../design/LELO_GR02_SKY130A/sky130_fd_pr__diode_pw2nd_05v5_QK8PWZ.mag.
+The cell exists in the search paths at sky130_fd_pr__diode_pw2nd_05v5_QK8PWZ.mag.
+The discovered version will be used.
+Cell sky130_fd_pr__diode_pw2nd_05v5_QK8PWZ read from current working directory
+Cell LELO_GR02 read from path ../design/LELO_GR02_SKY130A
+Cell OSCILLATOR read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A
+Cell JNWTR_CAPX4 read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_CAPX4 geometry by factor of 2
+Cell JNWTR_CAPX1 read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_CAPX1 geometry by factor of 2
+Cell JNWTR_DFRNQNX1_CV read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_DFRNQNX1_CV geometry by factor of 2
+Cells JNWTR_IVX1_CV.mag in ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A and ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A/JNW_TR_SKY130A have matching git repository commits and can be considered equivalent.
+Cell JNWTR_cut_M1M2_2x1 read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_cut_M1M2_2x1 geometry by factor of 2
+Cell JNWTR_cut_M1M3_2x1 read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_cut_M1M3_2x1 geometry by factor of 2
+Cell JNWTR_IVX1_CV read from path ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_IVX1_CV geometry by factor of 2
+Cell JNWTR_cut_M1M4_2x1 read from path ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_cut_M1M4_2x1 geometry by factor of 2
+Cell JNWTR_PCHDL read from path ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_PCHDL geometry by factor of 2
+Cell JNWTR_NCHDL read from path ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_NCHDL geometry by factor of 2
+Cell JNWTR_NDTRIX1_CV read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_NDTRIX1_CV geometry by factor of 2
+Cells JNWTR_NCHDL in ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A and ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A/JNW_TR_SKY130A have matching git repository commits and can be considered equivalent.
+Cells JNWTR_PCHDL in ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A and ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A/JNW_TR_SKY130A have matching git repository commits and can be considered equivalent.
+Cells JNWTR_cut_M1M4_2x1 in ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A and ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A/JNW_TR_SKY130A have matching git repository commits and can be considered equivalent.
+Cell JNWTR_IVTRIX1_CV read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_IVTRIX1_CV geometry by factor of 2
+Cells JNWTR_NCHDL in ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A and ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A/JNW_TR_SKY130A have matching git repository commits and can be considered equivalent.
+Cells JNWTR_PCHDL in ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A and ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A/JNW_TR_SKY130A have matching git repository commits and can be considered equivalent.
+Cells JNWTR_cut_M1M4_2x1 in ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A and ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A/JNW_TR_SKY130A have matching git repository commits and can be considered equivalent.
+Cell JNWTR_NDX1_CV read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_NDX1_CV geometry by factor of 2
+Cells JNWTR_NCHDL in ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A and ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A/JNW_TR_SKY130A have matching git repository commits and can be considered equivalent.
+Cells JNWTR_PCHDL in ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A and ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A/JNW_TR_SKY130A have matching git repository commits and can be considered equivalent.
+Cells JNWTR_cut_M1M4_2x1 in ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A and ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A/JNW_TR_SKY130A have matching git repository commits and can be considered equivalent.
+Cell JNWTR_TAPCELLB_CV read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_TAPCELLB_CV geometry by factor of 2
+Cells JNWTR_NCHDL in ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A and ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A/JNW_TR_SKY130A have matching git repository commits and can be considered equivalent.
+Cells JNWTR_PCHDL in ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A and ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A/JNW_TR_SKY130A have matching git repository commits and can be considered equivalent.
+Cells JNWTR_cut_M1M4_2x1 in ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A and ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A/JNW_TR_SKY130A have matching git repository commits and can be considered equivalent.
+Cell COMPARATOR read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../LELO_GR02_SKY130A
+Cell JNWATR_PCH_4C5F0 read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_ATR_SKY130A
+Scaled magic input cell JNWATR_PCH_4C5F0 geometry by factor of 2
+Cell JNWATR_NCH_4C5F0 read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_ATR_SKY130A
+Scaled magic input cell JNWATR_NCH_4C5F0 geometry by factor of 2
+Cell JNWATR_PCH_8C1F2 read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_ATR_SKY130A
+Scaled magic input cell JNWATR_PCH_8C1F2 geometry by factor of 2
+Cell LELOATR_NCH_8C1F2 read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../LELO_ATR_SKY130A
+Cell JNWTR_RPPO16 read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_RPPO16 geometry by factor of 2
+Cell JNWTR_RES16 read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_RES16 geometry by factor of 2
+Cell LELOATR_LVT_PCH_4C5F0 read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../LELO_ATR_SKY130A
+Cell JNWATR_NCH_2C5F0 read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_ATR_SKY130A
+Scaled magic input cell JNWATR_NCH_2C5F0 geometry by factor of 2
+Cell JNWATR_NCH_8C1F2 read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_ATR_SKY130A
+Scaled magic input cell JNWATR_NCH_8C1F2 geometry by factor of 2
+Cell BANDGAP read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A
+Cell BANDGAP_DIODE read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../LELO_GR02_SKY130A
+Scaled magic input cell BANDGAP_DIODE geometry by factor of 2
+Cell sky130_fd_pr__rf_pnp_05v5_W3p40L3p40 read from path /opt/pdk/share/pdk/sky130A/libs.ref/sky130_fd_pr/mag
+Cell LELOATR_PCH_2C1F2 read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../LELO_ATR_SKY130A
+Cell BANDGAP_OPAMP read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../LELO_GR02_SKY130A
+Cells JNWTR_RPPO8.mag in ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A and ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../LELO_GR02_SKY130A/JNW_TR_SKY130A have matching git repository commits and can be considered equivalent.
+Cells JNWTR_CAPX4 in ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A and ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../LELO_GR02_SKY130A/JNW_TR_SKY130A have matching git repository commits and can be considered equivalent.
+Cell JNWTR_RPPO8 read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_RPPO8 geometry by factor of 2
+Cell JNWTR_RES8 read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_RES8 geometry by factor of 2
+Warning:  Parent cell lists instance of "LELOATR_PCH_12C5F0" at bad file path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../LELO_GR02_SKY130A/LELO_ATR_SKY130A/LELOATR_PCH_12C5F0.mag.
+The cell exists in the search paths at ../design/LELO_ATR_SKY130A/LELOATR_PCH_12C5F0.mag.
+The discovered version will be used.
+Cell LELOATR_PCH_12C5F0 read from path ../design/LELO_ATR_SKY130A
+Warning:  Parent cell lists instance of "LELOATR_NCH_4C5F0" at bad file path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../LELO_GR02_SKY130A/LELO_ATR_SKY130A/LELOATR_NCH_4C5F0.mag.
+The cell exists in the search paths at ../design/LELO_ATR_SKY130A/LELOATR_NCH_4C5F0.mag.
+The discovered version will be used.
+Cell LELOATR_NCH_4C5F0 read from path ../design/LELO_ATR_SKY130A
+Warning:  Parent cell lists instance of "JNWTR_TIEL_CV" at bad file path ../design/LELO_GR02_SKY130A/JNW_TR_SKY130A/JNWTR_TIEL_CV.mag.
+The cell exists in the search paths at ../design/JNW_TR_SKY130A/JNWTR_TIEL_CV.mag.
+The discovered version will be used.
+Cell JNWTR_TIEL_CV read from path ../design/JNW_TR_SKY130A
+Scaled magic input cell JNWTR_TIEL_CV geometry by factor of 2
+Duplicate cell in JNWTR_TIEL_CV:  Instance of cell JNWTR_NCHDL is from path ../design/JNW_TR_SKY130A/LELO_GR01_SKY130A/../JNW_TR_SKY130A but cell was previously read from ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A.
+New path does not exist and will be ignored.
+Duplicate cell in JNWTR_TIEL_CV:  Instance of cell JNWTR_PCHDL is from path ../design/JNW_TR_SKY130A/LELO_GR01_SKY130A/../JNW_TR_SKY130A but cell was previously read from ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A.
+New path does not exist and will be ignored.
+Duplicate cell in JNWTR_TIEL_CV:  Instance of cell JNWTR_cut_M1M4_2x1 is from path ../design/JNW_TR_SKY130A/LELO_GR01_SKY130A/../JNW_TR_SKY130A but cell was previously read from ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A.
+New path does not exist and will be ignored.
+DRC style is now "drc(full)"
+Loading DRC CIF style.
+No errors found.
+Total DRC errors found: 0

@@ -1,0 +1,223 @@
+
+Magic 8.3 revision 541 - Compiled on Fri Aug 15 10:24:53 CEST 2025.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+(Magic) SigWatchFile2: Invalid argument
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+/opt/pdk/share/pdk/sky130A/libs.tech/magic/sky130A.tech: line 6356: section plot:
+	Unrecognized layer (type) name "reram"
+/opt/pdk/share/pdk/sky130A/libs.tech/magic/sky130A.tech: line 6357: section plot:
+	Unrecognized layer (type) name "reram"
+/opt/pdk/share/pdk/sky130A/libs.tech/magic/sky130A.tech: line 6359: section plot:
+	Unrecognized layer (type) name "reram"
+/opt/pdk/share/pdk/sky130A/libs.tech/magic/sky130A.tech: line 6370: section plot:
+	Unrecognized layer (type) name "reram"
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Load AICEX tech setup...
+Loading "ant/tt_um_lelo_gr02_analogicus_ant.tcl" from command line.
+Cell tt_um_lelo_gr02_analogicus read from path ../design/LELO_GR02_SKY130A
+Warning:  Parent cell lists instance of "sky130_fd_pr__diode_pw2nd_05v5_QK8PWZ" at bad file path ../design/LELO_GR02_SKY130A/sky130_fd_pr__diode_pw2nd_05v5_QK8PWZ.mag.
+The cell exists in the search paths at sky130_fd_pr__diode_pw2nd_05v5_QK8PWZ.mag.
+The discovered version will be used.
+Cell sky130_fd_pr__diode_pw2nd_05v5_QK8PWZ read from current working directory
+Cell LELO_GR02 read from path ../design/LELO_GR02_SKY130A
+Cell OSCILLATOR read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A
+Cell JNWTR_CAPX4 read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_CAPX4 geometry by factor of 2
+Cell JNWTR_CAPX1 read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_CAPX1 geometry by factor of 2
+Cell JNWTR_DFRNQNX1_CV read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_DFRNQNX1_CV geometry by factor of 2
+Duplicate cell in JNWTR_DFRNQNX1_CV:  Instance of cell JNWTR_IVX1_CV.mag is from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A/JNW_TR_SKY130A but cell was previously read from ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A.
+New path does not exist and will be ignored.
+Cell JNWTR_cut_M1M2_2x1 read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_cut_M1M2_2x1 geometry by factor of 2
+Cell JNWTR_cut_M1M3_2x1 read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_cut_M1M3_2x1 geometry by factor of 2
+Cell JNWTR_IVX1_CV read from path ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_IVX1_CV geometry by factor of 2
+Cell JNWTR_cut_M1M4_2x1 read from path ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_cut_M1M4_2x1 geometry by factor of 2
+Cell JNWTR_PCHDL read from path ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_PCHDL geometry by factor of 2
+Cell JNWTR_NCHDL read from path ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_NCHDL geometry by factor of 2
+Cell JNWTR_NDTRIX1_CV read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_NDTRIX1_CV geometry by factor of 2
+Duplicate cell in JNWTR_NDTRIX1_CV:  Instance of cell JNWTR_NCHDL is from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A/JNW_TR_SKY130A but cell was previously read from ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A.
+New path does not exist and will be ignored.
+Duplicate cell in JNWTR_NDTRIX1_CV:  Instance of cell JNWTR_PCHDL is from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A/JNW_TR_SKY130A but cell was previously read from ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A.
+New path does not exist and will be ignored.
+Duplicate cell in JNWTR_NDTRIX1_CV:  Instance of cell JNWTR_cut_M1M4_2x1 is from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A/JNW_TR_SKY130A but cell was previously read from ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A.
+New path does not exist and will be ignored.
+Cell JNWTR_IVTRIX1_CV read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_IVTRIX1_CV geometry by factor of 2
+Duplicate cell in JNWTR_IVTRIX1_CV:  Instance of cell JNWTR_NCHDL is from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A/JNW_TR_SKY130A but cell was previously read from ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A.
+New path does not exist and will be ignored.
+Duplicate cell in JNWTR_IVTRIX1_CV:  Instance of cell JNWTR_PCHDL is from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A/JNW_TR_SKY130A but cell was previously read from ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A.
+New path does not exist and will be ignored.
+Duplicate cell in JNWTR_IVTRIX1_CV:  Instance of cell JNWTR_cut_M1M4_2x1 is from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A/JNW_TR_SKY130A but cell was previously read from ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A.
+New path does not exist and will be ignored.
+Cell JNWTR_NDX1_CV read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_NDX1_CV geometry by factor of 2
+Duplicate cell in JNWTR_NDX1_CV:  Instance of cell JNWTR_NCHDL is from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A/JNW_TR_SKY130A but cell was previously read from ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A.
+New path does not exist and will be ignored.
+Duplicate cell in JNWTR_NDX1_CV:  Instance of cell JNWTR_PCHDL is from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A/JNW_TR_SKY130A but cell was previously read from ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A.
+New path does not exist and will be ignored.
+Duplicate cell in JNWTR_NDX1_CV:  Instance of cell JNWTR_cut_M1M4_2x1 is from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A/JNW_TR_SKY130A but cell was previously read from ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A.
+New path does not exist and will be ignored.
+Cell JNWTR_TAPCELLB_CV read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_TAPCELLB_CV geometry by factor of 2
+Duplicate cell in JNWTR_TAPCELLB_CV:  Instance of cell JNWTR_NCHDL is from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A/JNW_TR_SKY130A but cell was previously read from ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A.
+New path does not exist and will be ignored.
+Duplicate cell in JNWTR_TAPCELLB_CV:  Instance of cell JNWTR_PCHDL is from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A/JNW_TR_SKY130A but cell was previously read from ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A.
+New path does not exist and will be ignored.
+Duplicate cell in JNWTR_TAPCELLB_CV:  Instance of cell JNWTR_cut_M1M4_2x1 is from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A/JNW_TR_SKY130A but cell was previously read from ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A.
+New path does not exist and will be ignored.
+Cell COMPARATOR read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../LELO_GR02_SKY130A
+Cell JNWATR_PCH_4C5F0 read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_ATR_SKY130A
+Scaled magic input cell JNWATR_PCH_4C5F0 geometry by factor of 2
+Cell JNWATR_NCH_4C5F0 read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_ATR_SKY130A
+Scaled magic input cell JNWATR_NCH_4C5F0 geometry by factor of 2
+Cell JNWATR_PCH_8C1F2 read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_ATR_SKY130A
+Scaled magic input cell JNWATR_PCH_8C1F2 geometry by factor of 2
+Cell LELOATR_NCH_8C1F2 read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../LELO_ATR_SKY130A
+Cell JNWTR_RPPO16 read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_RPPO16 geometry by factor of 2
+Cell JNWTR_RES16 read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_RES16 geometry by factor of 2
+Cell LELOATR_LVT_PCH_4C5F0 read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../LELO_ATR_SKY130A
+Cell JNWATR_NCH_2C5F0 read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_ATR_SKY130A
+Scaled magic input cell JNWATR_NCH_2C5F0 geometry by factor of 2
+Cell JNWATR_NCH_8C1F2 read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_ATR_SKY130A
+Scaled magic input cell JNWATR_NCH_8C1F2 geometry by factor of 2
+Cell BANDGAP read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A
+Cell BANDGAP_DIODE read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../LELO_GR02_SKY130A
+Scaled magic input cell BANDGAP_DIODE geometry by factor of 2
+Cell sky130_fd_pr__rf_pnp_05v5_W3p40L3p40 read from path /opt/pdk/share/pdk/sky130A/libs.ref/sky130_fd_pr/mag
+Cell LELOATR_PCH_2C1F2 read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../LELO_ATR_SKY130A
+Cell BANDGAP_OPAMP read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../LELO_GR02_SKY130A
+Duplicate cell in BANDGAP_OPAMP:  Instance of cell JNWTR_RPPO8.mag is from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../LELO_GR02_SKY130A/JNW_TR_SKY130A but cell was previously read from ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A.
+New path does not exist and will be ignored.
+Duplicate cell in BANDGAP_OPAMP:  Instance of cell JNWTR_CAPX4 is from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../LELO_GR02_SKY130A/JNW_TR_SKY130A but cell was previously read from ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A.
+New path does not exist and will be ignored.
+Cell JNWTR_RPPO8 read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_RPPO8 geometry by factor of 2
+Cell JNWTR_RES8 read from path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../JNW_TR_SKY130A
+Scaled magic input cell JNWTR_RES8 geometry by factor of 2
+Warning:  Parent cell lists instance of "LELOATR_PCH_12C5F0" at bad file path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../LELO_GR02_SKY130A/LELO_ATR_SKY130A/LELOATR_PCH_12C5F0.mag.
+The cell exists in the search paths at ../design/LELO_ATR_SKY130A/LELOATR_PCH_12C5F0.mag.
+The discovered version will be used.
+Cell LELOATR_PCH_12C5F0 read from path ../design/LELO_ATR_SKY130A
+Warning:  Parent cell lists instance of "LELOATR_NCH_4C5F0" at bad file path ../design/LELO_GR02_SKY130A/../LELO_GR02_SKY130A/../LELO_GR02_SKY130A/LELO_ATR_SKY130A/LELOATR_NCH_4C5F0.mag.
+The cell exists in the search paths at ../design/LELO_ATR_SKY130A/LELOATR_NCH_4C5F0.mag.
+The discovered version will be used.
+Cell LELOATR_NCH_4C5F0 read from path ../design/LELO_ATR_SKY130A
+Warning:  Parent cell lists instance of "JNWTR_TIEL_CV" at bad file path ../design/LELO_GR02_SKY130A/JNW_TR_SKY130A/JNWTR_TIEL_CV.mag.
+The cell exists in the search paths at ../design/JNW_TR_SKY130A/JNWTR_TIEL_CV.mag.
+The discovered version will be used.
+Cell JNWTR_TIEL_CV read from path ../design/JNW_TR_SKY130A
+Scaled magic input cell JNWTR_TIEL_CV geometry by factor of 2
+Duplicate cell in JNWTR_TIEL_CV:  Instance of cell JNWTR_NCHDL is from path ../design/JNW_TR_SKY130A/LELO_GR01_SKY130A/../JNW_TR_SKY130A but cell was previously read from ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A.
+New path does not exist and will be ignored.
+Duplicate cell in JNWTR_TIEL_CV:  Instance of cell JNWTR_PCHDL is from path ../design/JNW_TR_SKY130A/LELO_GR01_SKY130A/../JNW_TR_SKY130A but cell was previously read from ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A.
+New path does not exist and will be ignored.
+Duplicate cell in JNWTR_TIEL_CV:  Instance of cell JNWTR_cut_M1M4_2x1 is from path ../design/JNW_TR_SKY130A/LELO_GR01_SKY130A/../JNW_TR_SKY130A but cell was previously read from ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A.
+New path does not exist and will be ignored.
+Path "ant/ext" does not exist;  attempting to create it.
+Extracting sky130_fd_pr__diode_pw2nd_05v5_QK8PWZ into ant/ext/sky130_fd_pr__diode_pw2nd_05v5_QK8PWZ.ext:
+sky130_fd_pr__diode_pw2nd_05v5_QK8PWZ: 1 warning
+Extracting JNWTR_CAPX1 into ant/ext/JNWTR_CAPX1.ext:
+Extracting JNWTR_CAPX4 into ant/ext/JNWTR_CAPX4.ext:
+Extracting JNWTR_cut_M1M2_2x1 into ant/ext/JNWTR_cut_M1M2_2x1.ext:
+Extracting JNWTR_cut_M1M3_2x1 into ant/ext/JNWTR_cut_M1M3_2x1.ext:
+Extracting JNWTR_cut_M1M4_2x1 into ant/ext/JNWTR_cut_M1M4_2x1.ext:
+Extracting JNWTR_PCHDL into ant/ext/JNWTR_PCHDL.ext:
+Extracting JNWTR_NCHDL into ant/ext/JNWTR_NCHDL.ext:
+Extracting JNWTR_IVX1_CV into ant/ext/JNWTR_IVX1_CV.ext:
+Extracting JNWTR_NDTRIX1_CV into ant/ext/JNWTR_NDTRIX1_CV.ext:
+Extracting JNWTR_IVTRIX1_CV into ant/ext/JNWTR_IVTRIX1_CV.ext:
+Extracting JNWTR_NDX1_CV into ant/ext/JNWTR_NDX1_CV.ext:
+Extracting JNWTR_TAPCELLB_CV into ant/ext/JNWTR_TAPCELLB_CV.ext:
+Extracting JNWTR_DFRNQNX1_CV into ant/ext/JNWTR_DFRNQNX1_CV.ext:
+Extracting JNWATR_PCH_4C5F0 into ant/ext/JNWATR_PCH_4C5F0.ext:
+Extracting JNWATR_NCH_4C5F0 into ant/ext/JNWATR_NCH_4C5F0.ext:
+Extracting JNWATR_PCH_8C1F2 into ant/ext/JNWATR_PCH_8C1F2.ext:
+Extracting LELOATR_NCH_8C1F2 into ant/ext/LELOATR_NCH_8C1F2.ext:
+Extracting JNWTR_RES16 into ant/ext/JNWTR_RES16.ext:
+Extracting JNWTR_RPPO16 into ant/ext/JNWTR_RPPO16.ext:
+Extracting LELOATR_LVT_PCH_4C5F0 into ant/ext/LELOATR_LVT_PCH_4C5F0.ext:
+Extracting COMPARATOR into ant/ext/COMPARATOR.ext:
+Extracting JNWATR_NCH_2C5F0 into ant/ext/JNWATR_NCH_2C5F0.ext:
+Extracting JNWATR_NCH_8C1F2 into ant/ext/JNWATR_NCH_8C1F2.ext:
+Extracting OSCILLATOR into ant/ext/OSCILLATOR.ext:
+Extracting sky130_fd_pr__rf_pnp_05v5_W3p40L3p40 into ant/ext/sky130_fd_pr__rf_pnp_05v5_W3p40L3p40.ext:
+Extracting BANDGAP_DIODE into ant/ext/BANDGAP_DIODE.ext:
+Extracting LELOATR_PCH_2C1F2 into ant/ext/LELOATR_PCH_2C1F2.ext:
+Extracting JNWTR_RES8 into ant/ext/JNWTR_RES8.ext:
+Extracting JNWTR_RPPO8 into ant/ext/JNWTR_RPPO8.ext:
+Extracting LELOATR_PCH_12C5F0 into ant/ext/LELOATR_PCH_12C5F0.ext:
+Extracting LELOATR_NCH_4C5F0 into ant/ext/LELOATR_NCH_4C5F0.ext:
+Extracting BANDGAP_OPAMP into ant/ext/BANDGAP_OPAMP.ext:
+Extracting BANDGAP into ant/ext/BANDGAP.ext:
+Extracting LELO_GR02 into ant/ext/LELO_GR02.ext:
+Extracting JNWTR_TIEL_CV into ant/ext/JNWTR_TIEL_CV.ext:
+Extracting tt_um_lelo_gr02_analogicus into ant/ext/tt_um_lelo_gr02_analogicus.ext:
+Total of 1 warning.
+Reading extract file.
+Building flattened netlist.
+connect(1): no such node LELO_GR02_0/BANDGAP_0/x2/LELOATR_NCH_4C5F0_2/a_1056_n40#
+connect(2): no such node LELO_GR02_0/BANDGAP_0/x2/LELOATR_NCH_4C5F0_2/a_1056_n40#
+connect(1): no such node LELO_GR02_0/BANDGAP_0/x2/LELOATR_NCH_4C5F0_5/a_1056_n40#
+connect(1): no such node LELO_GR02_0/BANDGAP_0/x2/LELOATR_NCH_4C5F0_7/a_1056_n40#
+connect(2): no such node LELO_GR02_0/BANDGAP_0/x2/LELOATR_NCH_4C5F0_7/a_1056_n40#
+connect(1): no such node LELO_GR02_0/BANDGAP_0/x2/LELOATR_NCH_4C5F0_6/a_1056_n40#
+connect(2): no such node LELO_GR02_0/BANDGAP_0/x2/LELOATR_NCH_4C5F0_6/a_1056_n40#
+connect(1): no such node LELO_GR02_0/BANDGAP_0/x2/LELOATR_NCH_4C5F0_3/a_1056_n40#
+connect(1): no such node LELO_GR02_0/BANDGAP_0/x2/LELOATR_NCH_4C5F0_4/a_1056_n40#
+connect(1): no such node LELO_GR02_0/BANDGAP_0/x2/LELOATR_NCH_4C5F0_0/a_1056_n40#
+connect(2): no such node LELO_GR02_0/BANDGAP_0/x2/LELOATR_NCH_4C5F0_0/a_1056_n40#
+connect(1): no such node LELO_GR02_0/BANDGAP_0/x2/x10/a_1312_n40#
+connect(2): no such node LELO_GR02_0/BANDGAP_0/x2/x10/a_1312_n40#
+connect(1): no such node LELO_GR02_0/BANDGAP_0/x2/x6/a_1312_n40#
+connect(2): no such node LELO_GR02_0/BANDGAP_0/x2/x6/a_1312_n40#
+connect(1): no such node LELO_GR02_0/OSCILLATOR_0/x5/x3<0>/a_1312_n40#
+connect(2): no such node LELO_GR02_0/OSCILLATOR_0/x5/x3<0>/a_1312_n40#
+connect(1): no such node LELO_GR02_0/OSCILLATOR_0/x5/x2<0>/a_1312_n40#
+connect(2): no such node LELO_GR02_0/OSCILLATOR_0/x5/x2<0>/a_1312_n40#
+connect(1): no such node LELO_GR02_0/OSCILLATOR_0/x5/x3<1>/a_1312_n40#
+connect(1): no such node LELO_GR02_0/OSCILLATOR_0/x5/x7/a_1056_n40#
+connect(1): no such node LELO_GR02_0/OSCILLATOR_0/x5/x2<1>/a_1312_n40#
+connect(1): no such node LELO_GR02_0/OSCILLATOR_0/x5/x4/a_1056_n40#
+connect(2): no such node LELO_GR02_0/OSCILLATOR_0/x5/x4/a_1056_n40#
+connect(1): no such node LELO_GR02_0/OSCILLATOR_0/x5/x3/a_1056_n40#
+connect(2): no such node LELO_GR02_0/OSCILLATOR_0/x5/x3/a_1056_n40#
+connect(1): no such node LELO_GR02_0/OSCILLATOR_0/x5/x1<1>/a_1056_n40#
+connect(2): no such node LELO_GR02_0/OSCILLATOR_0/x5/x1<1>/a_1056_n40#
+connect(1): no such node LELO_GR02_0/OSCILLATOR_0/x5/x9<1>/a_1056_n40#
+connect(1): no such node LELO_GR02_0/OSCILLATOR_0/x5/x1<0>/a_1056_n40#
+connect(1): no such node LELO_GR02_0/OSCILLATOR_0/x5/x9<0>/a_1056_n40#
+connect(2): no such node LELO_GR02_0/OSCILLATOR_0/x5/x9<0>/a_1056_n40#
+connect(1): no such node LELO_GR02_0/OSCILLATOR_0/x5/x1<2>/a_1056_n40#
+connect(1): no such node LELO_GR02_0/OSCILLATOR_0/x5/x9<2>/a_1056_n40#
+connect(2): no such node LELO_GR02_0/OSCILLATOR_0/x5/x9<2>/a_1056_n40#
+connect(1): no such node LELO_GR02_0/OSCILLATOR_0/x5/x1<3>/a_1056_n40#
+connect(1): no such node LELO_GR02_0/OSCILLATOR_0/x5/x1<4>/a_1056_n40#
+connect(1): no such node LELO_GR02_0/OSCILLATOR_0/x5/x9<3>/a_1056_n40#
+connect(1): no such node LELO_GR02_0/OSCILLATOR_0/x5/x9<4>/a_1056_n40#
+connect(2): no such node LELO_GR02_0/OSCILLATOR_0/x5/x9<4>/a_1056_n40#
+connect(1): no such node LELO_GR02_0/OSCILLATOR_0/x2/a_1312_n40#
+connect(2): no such node LELO_GR02_0/OSCILLATOR_0/x2/a_1312_n40#
+connect(1): no such node LELO_GR02_0/OSCILLATOR_0/x1/a_1312_n40#
+connect(2): no such node LELO_GR02_0/OSCILLATOR_0/x1/a_1312_n40#
+connect(1): no such node LELO_GR02_0/OSCILLATOR_0/x3/a_928_n40#
+connect(2): no such node LELO_GR02_0/OSCILLATOR_0/x3/a_928_n40#
+Running antenna checks.
+antennacheck finished.
