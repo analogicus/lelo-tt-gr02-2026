@@ -131,7 +131,6 @@ Duplicate cell in JNWTR_TIEL_CV:  Instance of cell JNWTR_PCHDL is from path ../d
 New path does not exist and will be ignored.
 Duplicate cell in JNWTR_TIEL_CV:  Instance of cell JNWTR_cut_M1M4_2x1 is from path ../design/JNW_TR_SKY130A/LELO_GR01_SKY130A/../JNW_TR_SKY130A but cell was previously read from ../design/LELO_GR02_SKY130A/../JNW_TR_SKY130A.
 New path does not exist and will be ignored.
-Path "ant/ext" does not exist;  attempting to create it.
 Extracting sky130_fd_pr__diode_pw2nd_05v5_QK8PWZ into ant/ext/sky130_fd_pr__diode_pw2nd_05v5_QK8PWZ.ext:
 sky130_fd_pr__diode_pw2nd_05v5_QK8PWZ: 1 warning
 Extracting JNWTR_CAPX1 into ant/ext/JNWTR_CAPX1.ext:
